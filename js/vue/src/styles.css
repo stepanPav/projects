@@ -1,0 +1,33 @@
+html {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 60px;
+    background-color: #DAD2CA;
+    border-radius: .3em;
+    transition: .3s ease-out;
+  }
+ul li{
+    padding-top: 10px;
+}
+.active{
+    background-color: #8FD4C1;
+    border-radius: .3em;
+    transition: .3s ease-out;
+    color: black;
+    transition: 1s;
+}
+.active button{
+    
+    background-color: red;
+    color: whitesmoke;
+    
+}
+button {
+    margin-bottom: 10px;
+}
+ul {
+    list-style-type: upper-roman;
+}
